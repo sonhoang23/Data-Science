@@ -1,9 +1,9 @@
 # Markdown Cheat Sheet By Sơn Hoàng 
 ## Italics and Bold
-- _Chữ Nghiêng_ : đặt "_" hai đầu của văn bản
+- _Chữ Nghiêng_ : đặt "_" ||| "*" ||| `<em>` hai đầu của văn bản
   `ví dụ:  _chữ nghiêng _`
    
-- **Chữ Đậm** : đặt "**" hai đầu văn bản
+- **Chữ Đậm** : đặt "**" ||| "__" ||| `<strong>` hai đầu văn bản
   `ví dụ: **Chữ Đậm**`
   
 ## Headers
@@ -24,7 +24,7 @@ có tổng cộng 6 size header ứng với số lượng "#"
 
 [link github Hoàng Sơn]: https://github.com/sonhoang23
 
-[**Thực Tế**] `ví dụ vào trang [GitHub của Hoàng Sơn][link github Hoàng Sơn] <- cái này trùng cái ở dưới -> tham chiếu</p>
+[**Thực Tế**] \*ví dụ vào trang [GitHub của Hoàng Sơn][link github Hoàng Sơn] <- cái này trùng cái ở dưới -> tham chiếu\*
 <p>[link github Hoàng Sơn]: https://github.com/sonhoang23`
 
 ## Images
@@ -32,27 +32,29 @@ _Có 2 dạng: _
 ### _Inline Image Link_
 cấu trúc: !+[title]+(link ảnh)
 
-[**Kết Quả:**] ![Sơn Hoàng](https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/73372369_130166728404961_4785021647134392320_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=QuX_cS5epBcAX_5drsw&_nc_ht=scontent-hkg4-1.xx&oh=632cd71f9e7a021169dad0ec2c730df0&oe=60CFC508)
-
-[**Thực Tế:**] ` ![Sơn Hoàng](https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/73372369_130166728404961_4785021647134392320_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=QuX_cS5epBcAX_5drsw&_nc_ht=scontent-hkg4-1.xx&oh=632cd71f9e7a021169dad0ec2c730df0&oe=60CFC508) `
+<img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/73372369_130166728404961_4785021647134392320_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=QuX_cS5epBcAX_5drsw&_nc_ht=scontent-hkg4-1.xx&oh=632cd71f9e7a021169dad0ec2c730df0&oe=60CFC508" width="100" height="100">
+  
+[**Thực Tế:**] ` ![Sơn Hoàng](https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/73372369_130166728404961_4785021647134392320_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=QuX_cS5epBcAX_5drsw&_nc_ht=scontent-hkg4-1.xx&oh=632cd71f9e7a021169dad0ec2c730df0&oe=60CFC508)` **Cách này có vẻ không resize ảnh được**
 
 ### Kiểu tham chiếu
 [**Kết Quả:**] ![Sơn Hoàng 1][link avatar]
 
-[link avatar]: https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/73372369_130166728404961_4785021647134392320_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=QuX_cS5epBcAX_5drsw&_nc_ht=scontent-hkg4-1.xx&oh=632cd71f9e7a021169dad0ec2c730df0&oe=60CFC508
+`[link avatar]: https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/73372369_130166728404961_4785021647134392320_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=QuX_cS5epBcAX_5drsw&_nc_ht=scontent-hkg4-1.xx&oh=632cd71f9e7a021169dad0ec2c730df0&oe=60CFC508` **Kiểu này chưa tìm thấy cách resize ảnh**
  
 ## Blockquotes
 ### Chỉ sử dụng dấu ">" ở đầu một đoạn văn hoặc câu văn nằm riêng biệt
 ### dùng nhiều dấu ">" với mỗi đoạn/ câu văn để qoute cả nhiều đoạn văn
 [**Kết Quả:**] 
 > đây là ví dụ nhé các frend
+>> cách vào 1 ô nè
+>>> cách thêm nè  
 
 [**Thực Tế:**] > đây là ví dụ nhé các frend
 
 ## Lists
 > 2 loại list là list không thứ tự và list có thứ tự
->list không thứ tự sử dụng bullet points
-> list có thứ tự dùng số
+  list không thứ tự sử dụng bullet points
+  list có thứ tự dùng số
 ### list không thứ tự
 Cấu trúc: "*"+"dấu cách"+"tên"
 [**Kết Quả:**] 

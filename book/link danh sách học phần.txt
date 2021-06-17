@@ -1,2 +1,5 @@
 https://ts.hust.edu.vn/tin-tuc/chuong-trinh-dao-tao-chuan-truong-dai-hoc-bach-khoa-ha-noi
 http://sami.hust.edu.vn/de-cuong/
+
+https://observablehq.com/d/5c25cafd3d458246
+https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c

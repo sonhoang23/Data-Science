@@ -1,0 +1,27 @@
+[submodule "repos/pytorch-tutorial"]
+	path = repos/pytorch-tutorial
+	url = https://github.com/yunjey/pytorch-tutorial.git
+[submodule "repos/AI-Expert-Roadmap"]
+	path = repos/AI-Expert-Roadmap
+	url = https://github.com/AMAI-GmbH/AI-Expert-Roadmap.git
+[submodule "repos/nlp-roadmap"]
+	path = repos/nlp-roadmap
+	url = https://github.com/graykode/nlp-roadmap.git
+[submodule "Images and cheat sheets/cheatsheets"]
+	path = Images and cheat sheets/cheatsheets
+	url = https://github.com/rstudio/cheatsheets
+[submodule "Interviews/interview-question-data-science-"]
+	path = Interviews/interview-question-data-science-
+	url = https://github.com/iNeuronai/interview-question-data-science-
+[submodule "Code ML Examples/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code"]
+	path = Code ML Examples/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
+	url = https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code.git
+[submodule "repos/repo ML Books/ml-yearning-vn"]
+	path = repos/repo ML Books/ml-yearning-vn
+	url = https://github.com/mlbvn/ml-yearning-vn.git
+[submodule "Math/Statistics-for-Machine-Learning"]
+	path = Math/Statistics-for-Machine-Learning
+	url = https://github.com/PacktPublishing/Statistics-for-Machine-Learning.git
+[submodule "Math/probability_cheatsheet"]
+	path = Math/probability_cheatsheet
+	url = https://github.com/wzchen/probability_cheatsheet.git

@@ -25,3 +25,9 @@
 [submodule "Math/probability_cheatsheet"]
 	path = Math/probability_cheatsheet
 	url = https://github.com/wzchen/probability_cheatsheet.git
+[submodule "Repos/repo ML Books/deepai-book"]
+	path = Repos/repo ML Books/deepai-book
+	url = https://github.com/phamdinhkhanh/deepai-book.git
+[submodule "Repos/repo ML Books/ebookMLCB"]
+	path = Repos/repo ML Books/ebookMLCB
+	url = https://github.com/tiepvupsu/ebookMLCB

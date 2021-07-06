@@ -16,21 +16,21 @@
 [submodule "Code ML Examples/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code"]
 	path = Code ML Examples/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 	url = https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code.git
-[submodule "repos/repo ML Books/ml-yearning-vn"]
-	path = repos/repo ML Books/ml-yearning-vn
-	url = https://github.com/mlbvn/ml-yearning-vn.git
 [submodule "Math/Statistics-for-Machine-Learning"]
 	path = Math/Statistics-for-Machine-Learning
 	url = https://github.com/PacktPublishing/Statistics-for-Machine-Learning.git
 [submodule "Math/probability_cheatsheet"]
 	path = Math/probability_cheatsheet
 	url = https://github.com/wzchen/probability_cheatsheet.git
-[submodule "Repos/repo ML Books/deepai-book"]
-	path = Repos/repo ML Books/deepai-book
+[submodule "Books/repos/deepai-book"]
+	path = Books/repos/deepai-book
 	url = https://github.com/phamdinhkhanh/deepai-book.git
-[submodule "Repos/repo ML Books/ebookMLCB"]
-	path = Repos/repo ML Books/ebookMLCB
+[submodule "Books/repos/ebookMLCB"]
+	path = Books/repos/ebookMLCB
 	url = https://github.com/tiepvupsu/ebookMLCB
 [submodule "Books/repos/d2l-vn"]
 	path = Books/repos/d2l-vn
 	url = https://github.com/mlbvn/d2l-vn.git
+[submodule "Books/repos/ml-yearning-vn"]
+	path = Books/repos/ml-yearning-vn
+	url = https://github.com/mlbvn/ml-yearning-vn.git

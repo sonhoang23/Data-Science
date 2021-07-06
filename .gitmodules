@@ -31,6 +31,6 @@
 [submodule "Repos/repo ML Books/ebookMLCB"]
 	path = Repos/repo ML Books/ebookMLCB
 	url = https://github.com/tiepvupsu/ebookMLCB
-[submodule "Repos/repo ML Books/d2l-vn"]
-	path = Repos/repo ML Books/d2l-vn
+[submodule "Books/repos/d2l-vn"]
+	path = Books/repos/d2l-vn
 	url = https://github.com/mlbvn/d2l-vn.git

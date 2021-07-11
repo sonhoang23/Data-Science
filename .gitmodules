@@ -19,9 +19,6 @@
 [submodule "Math/Statistics-for-Machine-Learning"]
 	path = Math/Statistics-for-Machine-Learning
 	url = https://github.com/PacktPublishing/Statistics-for-Machine-Learning.git
-[submodule "Math/probability_cheatsheet"]
-	path = Math/probability_cheatsheet
-	url = https://github.com/wzchen/probability_cheatsheet.git
 [submodule "Books/repos/deepai-book"]
 	path = Books/repos/deepai-book
 	url = https://github.com/phamdinhkhanh/deepai-book.git

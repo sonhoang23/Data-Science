@@ -31,3 +31,6 @@
 [submodule "Books/repos/ml-yearning-vn"]
 	path = Books/repos/ml-yearning-vn
 	url = https://github.com/mlbvn/ml-yearning-vn.git
+[submodule "Curriculum/computer-science"]
+	path = Curriculum/computer-science
+	url = https://github.com/ossu/computer-science

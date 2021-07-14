@@ -1,0 +1,26 @@
+Trước khi bắt tay vào xử lý một bài toán thực tế bất kỳ, việc đầu tiên chúng ta cần làm là xác định vấn đề. Trong lĩnh vực Machine Learning (ML), đôi khi bài toán được đặt ra không cụ thể khiến cho quá trình xây dựng mô hình dự đoán đi đến ngõ cụt hoặc không đáp ứng được yêu cầu của khách hàng. Vậy làm thế nào để có thể xác định được bài toán hiện tại thuộc dạng nào để giải quyết bằng ML? 
+Bài chia sẻ hôm nay sẽ liệt kê các câu hỏi nghiên cứu và đưa ra bài toán cụ thể để giải bằng ML.
+❓ Câu hỏi 1: Mẫu dữ liệu này là A hay B?
+Với việc đặt vấn đề như trên, chúng ta đang đưa câu hỏi nghiên cứu này sang bài toán phân loại hai lớp (two-class classification). Đây là dạng bài toán chỉ có hai câu trả lời: có hoặc không, đã thanh toán hay chưa thanh toán, … Dưới đây là một số câu hỏi khi xử lý 1 bài toán thực tế của dạng này.
+◾ Khách hàng này sẽ gia hạn thuê bao hay không?
+◾ Đây là ảnh một con mèo hay một con chó?
+◾ Liệu khách hàng có click vào quảng cáo này hay không?
+❓ Câu hỏi 2: Mẫu dữ liệu này là A hay B hay C hay D?
+Ta có thể đưa câu hỏi nghiên cứu này sang bài toán phân loại đa lớp (multi-class classification). Như tên gọi của nó, ta sẽ thu được câu trả lời là một hay nhiều các khả năng: thích cái nào, người nào, bộ phận nào, công ty nào, ứng viên nào. Đa số các thuật toán multi-class classification là phiên bản mở rộng của thuật toán binary classification. Dưới đây là một số câu hỏi điển hình.
+◾ Có con vật nào trong bức ảnh này?
+◾ Xác định tên máy bay thu được trên ra-da?
+◾ Bài viết này thuộc chủ đề gì?
+◾ Mẫu dữ liệu này có gì lạ không?
+❓ Câu hỏi 3: Bao nhiêu?
+Khi bạn muốn kết quả trả về là một con số thay vì là một lớp hay một loại, ta có thể đưa câu hỏi nghiên cứu này sang bài toán hồi quy (regression). Thông thường các thuật toán regression sẽ trả về câu trả lời là một giá trị thực, có thể gồm rất nhiều số thập phân hay thậm chí mang giá trị âm. Dưới đây là một số câu hỏi điển hình.
+◾ Nhiệt độ vào thứ ba tuần tới sẽ là bao nhiêu?
+◾ Có bao nhiêu người theo dõi bài viết của tôi trong tuần tới?
+◾ Số lượng vaccines covid19 nhận được tiếp theo là bao nhiêu?
+❓ Câu hỏi 4: Liệu bài toán có thể phân loại đa lớp dưới dạng regression?
+Một số trường hợp, những bài toán liên quan đến multi-class classification có thể chuyển thành regression. Ví dụ ta thường gặp câu hỏi sau “Bài viết nào thu hút độc giả này nhiều nhất?”. Ta có thể chuyển sang câu hỏi tương tự “Mức độ hứng thú của độc giả đối với từng bài viết này là bao nhiêu?”. Bằng cách cho điểm từng bài viết, ta sẽ chọn ra bài viết có điểm đánh giá cao nhất để gợi ý cho độc giả. 
+Thật ra, bản chất một số thuật toán two-class classification đều có thể kết hợp với regression. Bài toán này áp dụng cho các trường hợp như biến cố này có thể xảy ra cũng có thể không xảy ra, và câu hỏi thường bắt đầu với “Xác suất… là bao nhiêu” hay “Tỉ lệ… là bao nhiêu”.
+Có thể mọi người đã nhận ra các bài toán two-class classification, multi-class classification và regression đều có hướng tiếp cận chung là huấn luyện có giám sát (supervised learning). Hướng tiếp cận này cần tập dữ liệu huấn luyện (training set) có gán nhãn (labeled). Sau đó, mô hình dự đoán sẽ gán giá trị xác suất cho mẫu dữ liệu cần dự đoán thuộc về lớp nào (tiến trình này gọi là scoring). Dưới đây là một số câu hỏi điển hình.
+◾ Xác suất người dùng sẽ click vào link quảng cáo này là bao nhiêu?
+◾ Tỉ lệ thắng khi kéo máy đánh bạc này là bao nhiêu?
+◾ Xác suất nhân viên này là mối đe doạ an ninh ngầm trong công ty là bao nhiêu?
+◾ Tỉ lệ các chuyến bay xuất phát đúng giờ là bao nhiêu?

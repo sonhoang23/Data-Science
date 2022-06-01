@@ -1,0 +1,55 @@
+Link bài học: https://www.youtube.com/watch?v=r-uOLxNrNk8
+
+My takeaways:
+1. Table of Content 1:45
+2. Introduction 2:52
+2.1 What is data analysis 2:52
+2.2 Data analysis tools 4:38
+2.3 Data analysis process 7:31
+2.4 Data Analysis vs Data Science 8:56
+2.5 Python and PyData Ecosystem 9:28
+2.6 Python data analysis vs Excel 9:46
+3. Real example data analysis with Python: getting a sense of what you can learn from this course 11:00
+4. How to use Jupyter Notebooks 30:50
+5. Intro to NumPy 1:04:58
+5.1 Low-level basis: binary numbers, memory footprint 1:09:32
+5.2 Python is not memory efficient to store numbers since it wraps everything into objects. Whereas in NumPy, we can select the number of bits to represent numbers 1:22:50
+5.3 NumPy can compute arrays faster than Python 1:24:58
+5.4 NumPy tutorial: NumPy arrays, matrices 1:29:47
+5.5 Memory footprint and performance: Python vs NumPy 1:53:14
+6. Intro to Pandas: getting, processing and visualizing data 1:56:58
+6.1 Pandas data structure: Series 1:58:41
+6.2 We can change the index of Pandas series and this is fundamentally different from NumPy arrays 2:02:55
+6.3 The upper limit of slicing in Pandas series is included, whereas, in NumPy, the limit is excluded 2:07:55
+6.4 Pandas data structure: DataFrames 2:14:36
+6.5 Most operations in Pandas are immutable 2:29:10
+6.7 Reading external data 2:36:47
+6.8 Pandas plotting 2:44:41
+7. Data cleaning 2:47:18
+7.1 Handling miss data 2:51:40
+7.2 Cleaning invalidate values 3:03:17
+7.3 Handling duplicated data 3:06:09
+7.4 Handling text data 3:11:05
+7.5 Data visualization 3:13:41
+7.6 Matplotlib global API 3:14:25
+7.7 Matplotlib OOP API  3:18:27
+8. Working with data from(/to) SQL, CSV, txt, API etc. 3:25:15
+8.1 Python methods for working with files 3:26:37
+8.2 Python methods for working with CSV files 3:29:33
+8.3 Pandas methods for working with CSV files 3:30:05
+8.4 Python methods for working with SQL 3:36:17
+8.5 Pandas methods for working with SQL 3:38:58
+8.6 Pandas methods for working with HTML 3:43:09
+8.7 Pandas methods for working with Excel files 3:49:56
+9. Python recap 3:55:18
+
+
+Part 1: Introduction
+Part 2: Real Life Example of a Python/Pandas Data Analysis project 00:11:11
+Part 3: Jupyter Notebooks Tutorial (00:30:50)
+Part 4: Intro to NumPy (01:04:58), (01:30:00)
+
+Part 5: Intro to Pandas (01:57:08)
+Part 6: Data Cleaning (02:47:18)
+Part 7: Reading Data from other sources (03:25:15)
+Part 8: Python Recap (03:55:19)
